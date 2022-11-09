@@ -1,6 +1,7 @@
 import Button from "../../components/Button";
 import {useNavigate} from "react-router-dom"
-import background from "../../assets/maxresdefault.jpg";
+import background from "../../assets/chocotorta-destacada.jpg";
+
 
 // "a"
 function Home () {
@@ -12,7 +13,7 @@ function Home () {
     <section className="hero is-medium is-fullheight" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}>;
     <div className="hero-body">
         <div className="container has-text-centered">
-      <Button onClick={()=>onClickButton("/game")} text="Haz click para iniciar el juego"/>
+      <Button onClick={()=>onClickButton("/game")} text="Haz click para iniciar el juego DE LA CHOCOTORTA"/>
         </div>
     </div>
     </section>
