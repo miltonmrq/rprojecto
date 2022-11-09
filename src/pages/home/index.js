@@ -13,7 +13,7 @@ function Home () {
     <section className="hero is-medium is-fullheight" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}>;
     <div className="hero-body">
         <div className="container has-text-centered">
-      <Button onClick={()=>onClickButton("/game")} text="Haz click para iniciar el juego DE LA CHOCOTORTA"/>
+      <Button onClick={()=>onClickButton("/game")} text="Haz click para iniciar el JUEGO . DE LA CHOCOTORTA"/>
         </div>
     </div>
     </section>
